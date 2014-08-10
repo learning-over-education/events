@@ -73,11 +73,12 @@
     }
 
     .event-banner button {
-        width: 335px; 
+        width: 280px; 
         height:40px; 
         background-color: #DA2126; 
         margin-right: auto; 
         margin-left: auto; 
+        margin-top: 10px;
         font-family: Lato, Helvetica, sans-serif; 
         border: 2px; 
         border-radius: 2px; 
@@ -150,8 +151,14 @@
     }
 
     .event-banner .twitter-button {
-        margin-top: 10px;
+        margin-left: 2px;
+        margin-top: 5px;
     }
+
+    .event-banner .fb-button {
+      
+    }
+
 
     footer {
       margin-left: -20px;
@@ -207,31 +214,33 @@
 
           <div class="col-lg-5 col-md-5"></div>
 
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-5 col-md-5">
             <a href="https://docs.google.com/forms/d/1tY80AGk9_sHkV26Y63_mzaZMfzVQFDslp7FXf5fBqBg/viewform" target="_blank"><button style="">Signup for the Event</button></a>
           </div>
          
-          <!-- Twitter Share a Link Button -->
-          <div class="col-lg-1 col-md-1 twitter-button" >
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://learn.media.mit.edu/events/medialab/" data-text="Join the second virtual visit to the MIT Media Lab -- Talk with current students and learn about our research.">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-          </div>  
-
-          <!-- Facebook Share a Link Button -->
+          
           <div class="col-lg-2 col-md-2">
-            <div id="fb-root"></div>
-            <div class="fb-like" data-href="http://learn.media.mit.edu/events/medialab/" data-layout="button_count" data-action="" data-show-faces="false" data-share="true"></div>
-          </div>
+            <!-- Facebook Share a Link Button -->
+            <div class="fb-button">
+              <div id="fb-root"></div>
+              <div class="fb-like" data-href="http://learn.media.mit.edu/events/medialab/" data-layout="button_count" data-show-faces="false" data-share="true"></div>
+            </div>
 
-          <script>(function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s); js.id = id;
-              js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&appId=832301356794452&version=v2.0";
-              fjs.parentNode.insertBefore(js, fjs);
-          }(document, 'script', 'facebook-jssdk'));</script>
+            <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&appId=832301356794452&version=v2.0";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
 
-          <!-- Facebook Share a Link Button -->
+            <!-- Twitter Share a Link Button -->
+            <div class="twitter-button">
+              <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://learn.media.mit.edu/events/medialab/" data-text="Join the second virtual visit to the MIT Media Lab -- Talk with current students and learn about our research.">Tweet</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </div>
+
+          </div>  
       </div>
 
       <!-- Banner for the event page  -->
