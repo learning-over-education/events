@@ -1,0 +1,453 @@
+body {
+  background-color: #ffffff; 
+  font-family: Lato, Helvetica, sans-serif;
+}
+
+.navbar-default .container {
+  padding: 0px;
+  padding-left: 20px;
+}
+
+.homepage {
+    margin-top: 50px;
+    background-image: url(img/ml_54.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding-top: 1.5em;
+    padding-bottom: 3.5em;
+    z-index: 10;
+    overflow: auto; 
+    height: 94vh;
+}
+
+.homepage .container {
+    padding: 0px;
+}
+
+.homepage h1 {
+    font-size: 7em;
+    font-weight: bold;
+    margin-left: auto;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+    padding: 0px;
+}
+
+.homepage p { 
+    font-size: 1.6em; 
+    font-weight: 200;
+    margin-right: auto; 
+    margin-left: auto; 
+    text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+    padding: 0px;
+}
+
+.homepage-container {
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.visit-info {
+  padding: 0px;
+}
+
+.visit-info p {
+  padding: 0px;
+  padding-left: 10px;
+}
+
+.visit-info .desc {
+  padding: 0px;
+  padding-left: 10px;
+}
+
+.signup-container {
+  padding: 0px;
+  padding: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.7);
+}
+
+.signup-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.signup-label {
+  padding: 0px;
+}
+
+.homepage-container .video-row {
+    margin-top: 20px;
+}
+
+.homepage-container .videowrapper {
+  position: relative;
+  padding-bottom: 60%;
+  height: 0;
+  overflow: hidden;
+}
+.homepage-container .videowrapper iframe,
+.homepage-container .videowrapper object,
+.homepage-container .videowrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.homepage-container h3 {
+    padding: 0px;
+    text-align: center;
+    font-size: 3em; 
+    font-weight: 300;
+}
+
+.homepage-container p {
+    line-height: 26px;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+.posts {
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.posts h2 {
+    padding: 0px;
+    font-size: 2em; 
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.posts li a{
+    line-height: 28px;
+    font-size: 1.4em; 
+    font-weight: 400;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+.posts p {
+    line-height: 26px;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 12px;
+}
+
+.posts .email {
+  padding: 0px;
+}
+
+.posts .team {
+  padding: 0px;
+}
+
+/* ======================= August 28 Event Styles ===================== */
+
+.event-container {
+  line-height: 26px;
+  font-size: 1.2em; 
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+.event-container a {
+  text-decoration: none;
+}
+
+.event-banner {
+    margin-top: 50px;
+    background-image: url(img/ml7.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding-top: 1.5em;
+    padding-bottom: 3.5em;
+    opacity: 0.99;
+    z-index: 10;
+    overflow: auto; 
+}
+
+.event-banner h1 {
+    font-size: 4em; 
+    font-weight: bold; 
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+}
+
+.event-banner p { 
+    font-size: 1.2em; 
+    text-align: center; 
+    margin-right: auto; 
+    margin-left: auto; 
+    text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+}
+
+.event-banner .date { 
+    font-size: 1.6em;
+    margin-top: 5px;
+}
+
+.event-banner .event-url {
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+.event-url a {
+  color: white;
+  text-decoration: none;
+}
+
+.event-banner button {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px; 
+    background-color: #DA2126; 
+    margin-top: 8px;
+    font-family: Lato, Helvetica, sans-serif; 
+    border: 5px; 
+    border-radius: 5px; 
+    font-size: 20px; 
+    color: #fff;  
+    opacity: 0.99;
+}
+
+.breakout-info {
+  padding: 0px;
+}
+
+.breakout-info .col-lg-4{
+  padding: 0px;
+}
+
+.breakout-info .col-lg-12{
+  padding: 0px;
+}
+
+.breakout-info .col-lg-8{
+  padding: 0px;
+}
+
+.breakout-info img {
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    width: 210px;
+    border: 2px #fff solid;
+}
+
+.breakout-info .breakout-name {
+    margin-top: 5px;
+    font-size: 1.5em;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 26px;
+    font-size: 1.2em; 
+    font-weight: 400;
+}
+
+.breakout-info .groupdesc {
+    padding-right: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.facilitator-info {
+   padding: 0px;
+}
+
+.facilitator-info .col-lg-12 {
+   padding: 0px;
+}
+
+.facilitator-info .col-lg-4 {
+   padding: 0px;
+}
+
+.facilitator-info img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    width: 175px;
+    border: 2px #fff solid;
+}
+
+.facilitator-info .fac-name {
+    margin-top: 5px;
+    font-size: 1.5em;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 26px;
+    font-size: 1.2em; 
+    font-weight: 400;
+}
+
+.facilitator-info .fac-bio {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.fac-thumb {
+  width: 175px;
+}
+
+.facilitator-info .col-lg-8 {
+  width: 63%;
+}
+
+.facilitator-info .col-md-12 {
+  width: 100%;
+}
+
+.facilitator-info .col-xs-12 {
+  width: 100%;
+}
+
+.facilitator-info .col-sm-12 {
+  width: 100%;
+}
+
+.fac-desc {
+  padding: 0px;
+  padding-left: 10px;
+}
+
+.event-banner .twitter-button {
+    margin-left: 2px;
+    margin-top: 7px;
+}
+
+/* ========= Event March 28 Styles ============================ */
+
+.event1-container {
+  margin-top: 60px;
+  line-height: 26px;
+  font-size: 1.2em; 
+  font-weight: 300;
+}
+
+.floated_img {
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 204px;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 201px;
+}
+
+.floated_img img {
+  width: 100%;
+  height: 100%;
+  border: 1px #2e7daa solid;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.floated_img .overlay {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -10px;
+    width: 200px;
+    height: 25px;
+    color: #fff;
+    text-align: center;
+    background-color: #2e7daa;
+    border-radius: 0px 0px 3px 3px;
+}
+
+/* ======================= Footer Styles  ===================== */
+
+.line-break {
+  padding: 0px;
+}
+
+.footer-row {
+  padding: 0px;
+  padding-bottom: 20px;
+}
+
+.footer-row .contact {
+  padding: 0px;
+}
+
+.sponsor-footer {
+    padding: 0px;
+    min-height: 90px;
+}
+
+.sponsor-label {
+    padding: 0px;
+}
+
+.sponsor-label h4 {
+    font-size: 24px;
+}
+
+footer #sponsor-logos {
+    width: 100%;
+    height: 25px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+footer #powered-logo {
+    width: 100%;
+    height: 25px;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+#powered-logo .col-lg-10 {
+  padding: 0px;
+  padding-left: 5px;
+}
+
+#powered-logo p {
+  margin: 0px;
+  line-height: 22px;
+  font-size: 18px;
+}
+
+footer #logo-medialab {
+  display: block;
+  background: url(https://dl.dropboxusercontent.com/s/1y6xymoqdvd1gas/medialab-logo-text.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 175px;
+  height: 100%;
+  margin-right: 10px;
+}
+
+footer #logo-macarthur {
+  display: block;
+  background: url(https://dl.dropboxusercontent.com/s/teozp4uobofpbsu/logo-macarthur-foundation.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 257px;
+  height: 100%;
+}
+
+footer #logo-unhangout {
+  display: block;
+  background: url(https://unhangout.media.mit.edu/public/img/unhangout-logo-blue-full.png) no-repeat;
+  background-size: contain;
+  height: 30px;
+}
